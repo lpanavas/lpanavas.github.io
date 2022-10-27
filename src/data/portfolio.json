@@ -1,0 +1,137 @@
+{
+  "basics": {
+    "name": "Liudas Panavas",
+    "picture": "happyTwitterPic.jpg",
+    "label": "",
+    "headline": "",
+    "summary": "I am a CS PhD student at the Data Visualization Lab at Northeastern University advised by Cody Dunne. My research focuses on explaiable AI for object detection algorithms as well as visualization for private data. My goal is to help everyday users evaluate and assess the utility of complicated model outputs. If this area of research interests you, please reach out to me for more information or to set up collaborations.",
+    "website": "https://lpanavas.github.io/personalSite/",
+    "blog": "",
+    "yearsOfExperience": 5,
+    "email": "",
+    "region": "Boston, Massachusetts",
+    "location": {},
+    "phone": "",
+    "profiles": [
+      {
+        "network": "Scholar",
+        "url": "https://scholar.google.com/citations?user=lgscvVoAAAAJ&hl=en",
+        "iconName": "scholar"
+      },
+      {
+        "network": "GitHub",
+        "username": "lpanavas",
+        "url": "https://github.com/lpanavas",
+        "iconName": "github"
+      },
+      {
+        "network": "Linkedin",
+        "url": "https://www.linkedin.com/in/liudas-panavas-122067104/",
+        "username": "@Liudas Panavas",
+        "iconName": "linkedin"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Javascript",
+      "level": "Proficient",
+      "rating": 3,
+      "yearsOfExperience": 3,
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "Proficient",
+      "rating": 4,
+      "yearsOfExperience": 4,
+      "keywords": []
+    }
+  ],
+  "selectedprojects": [
+    {
+      "title": "Visual Utility of Differentially Private Scatterplots",
+      "summary": "Investigating the visual utility of scatterplots under a variety of differential privacy mechanisms to provide guidance for data curators wishing to display sensitive data.",
+      "image": "scatterplotPoster.png",
+      "link": "https://osf.io/5t68s/"
+    },
+    {
+      "title": "PROTECT Database Interface",
+      "summary": "Creating a revamped database interface to allow PROTECT researchers to get a sense of the data with privacy preserving visualizations",
+      "image": "ProtectData.png",
+      "link": "https://arecibo.ece.neu.edu/dictionary/diz_test/client/build/ "
+    },
+    {
+      "title": "Children's Graphical Perception",
+      "summary": "We conducted a classic graphical perception study on a population of children aged 8–12 and college-aged adults to determine how accurately participants judge differences of particular graphical encodings.",
+      "image": "CGPFigure.png",
+      "link": "https://osf.io/r3dy2/"
+    },
+    {
+      "title": "OmicSynth Gene Expression Explorer",
+      "summary": "We conducted a classic graphical perception study on a population of children aged 8–12 and college-aged adults to determine how accurately participants judge differences of particular graphical encodings.",
+      "image": "omicSynth.PNG",
+      "link": "https://neu-cs-7250-s21.github.io/project-group-03-omicsynth/"
+    }
+  ],
+  "selectedpapers": [
+    {
+      "title": "Drawing Graphs with Multi-level Maps",
+      "summary": "We present a method for drawing a graph with superimposed multi-level maps. Our method uses either a provided or derived hierarchy of the graph to create sub-graph regions of the map at varying zoom levels.",
+      "image": "mgmap.png",
+      "link": "/personalSite/publications"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Privacy Preserving Data Visualizatoin",
+      "summary": "Investigating the visual utility of scatterplots under a variety of differential privacy mechanisms to provide guidance for data curators wishing to display sensitive data.",
+      "entries": [
+        {
+          "title": "Visual Utility of Privacy Preserving Scatterplots",
+          "html": [
+            {
+              "p": "There is a lot of data that is being acquired that is not allowed to be accessed by the public. People still want to use this data to learn from it and find new insights. Data curators are charged with being the go between the public and the data owners. Often, the public has to request the data or go through an approval process to get the data from the data curator. This is time consuming and creates friction which prevents the data analyst from drawing insights from the data."
+            },
+            {
+              "image": {
+                "src": "zhangImage.jpg",
+                "caption": "Image from paper 'Challenges of Visualizing Differentially Private Data' that captures the private output of two different algorithms. Both algorithms have samequery based error but produce different visual results.                ",
+                "width": 720
+              }
+            },
+            {
+              "p": "Many analyses are done on the interaction between two variables. Scatterplots are a common way to get a sense of interesting patterns and distributions between two variables. Releasing scatterplots without privacy addition is not possible because the points correspond to individuals. Other privacy additions such as anonymity or jittering the data do not necessarily preserve the privacy of the individuals. Differential privacy is a mechanism that does guarantee privacy against a broad range of attacks in a quantifiable way. We can apply differential privacy to scatterplots to release the data in a privacy preserving way."
+            },
+
+            {
+              "p": "Different algorithms can produce scatter plots that have the same average range or count error but produce very different visual representations. To fix this problem we have experts evaluate the utility of the private scatterplots. Using these metrics we compare 5 popular differential privacy algorithms across a range of data sets, tasks, bins sizes, and privacy levels. We match the visual characteristics to certain tasks users may want to complete with scatterplots to help data curators discern which type of algorithm is best for them to use when presenting private data visually."
+            },
+            {
+              "p": "Our end goal is to provide a table where users can quickly look at their data structure, task importance, data size, and privacy guarantee and get a sense of which algorithm will likely perform best for them based on expert judgements. We can think of this as a practical visual guide to selecting the best algorithm for a certain set of criteria. "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "publications": {
+    "journal": [],
+    "conference": [
+      {
+        "title": "Juvenile Graphical Perception: A Comparison between Children and Adults",
+        "authors": "Panavas, L., Worth, A., Crnovrsanin, T., Sathyamurthi, T., Cordes, S., Borkin, M. A., & Dunne, C.",
+        "venue": "Conference on Human Factors in Computing Systems (CHI) ",
+        "year": "2022",
+        "url": "https://files.osf.io/v1/resources/r3dy2/providers/osfstorage/62280a0c558e6007162a1e5f?format=pdf&action=download&direct&version=1",
+        "image": "CGPFigure.png"
+      }
+    ]
+  },
+
+  "awards": [],
+  "press": [],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
