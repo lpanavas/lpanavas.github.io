@@ -95,7 +95,7 @@
             },
             {
               "image": {
-                "src": "zhangImage.jpg",
+                "src": "teaserPaper.png",
                 "caption": "Image from paper 'Challenges of Visualizing Differentially Private Data' that captures the private output of two different algorithms. Both algorithms have samequery based error but produce different visual results.                ",
                 "width": 720
               }
