@@ -58,15 +58,19 @@ const Header = () => {
         <Nav className="ml-auto">
           {items.map((i, idx) => (
             <Nav.Item key={idx} className="flex-column">
-              {/* <StyledNavMain style={{ color: "#000000" }} key={i.name}> */}
-              <StyledLink to={i.path}> {i.name}</StyledLink>
-              {/* </StyledNavMain> */}
-              {i.subpath &&
-                i.subpath.map((j) => (
-                  <StyledNavSub element={Link} href={"#" + j.path} key={j.name}>
-                    {j.name}
-                  </StyledNavSub>
-                ))}
+              <StyledNavMain
+                style={{ color: "#000000" }}
+                element={Link}
+                href={i.path}
+                key={i.name}
+              >
+                {i.name}
+              </StyledNavMain>
+              {i.subpath.map((j) => (
+                <StyledNavSub element={Link} href={j.path} key={j.name}>
+                  {j.name}
+                </StyledNavSub>
+              ))}
             </Nav.Item>
           ))}
         </Nav>
