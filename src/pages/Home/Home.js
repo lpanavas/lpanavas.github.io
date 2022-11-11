@@ -33,7 +33,38 @@ const Home = ({ user }) => {
         <Col>
           <div>
             <SectionTitle>About Me</SectionTitle>
-            <Paragraph>{user.basics.summary}</Paragraph>
+            <Paragraph>
+              I am a CS PhD student at the{" "}
+              <a href="https://visualization.khoury.northeastern.edu/#/">
+                Northeastern University Data Visualization Lab
+              </a>{" "}
+              advised by{" "}
+              <a href="https://visualization.khoury.northeastern.edu/people/Cody-Dunne/">
+                Cody Dunne
+              </a>
+              . I have presented work at top tier conferences in human-computer
+              interaction (ACM CHI 2022) and data visualization (IEEE Vis 2022).
+              I have experience prototyping and deploying visual analytics
+              software as well as running quantitative and qualitative
+              evaluations of user experiences.
+            </Paragraph>
+            <Paragraph>
+              {" "}
+              My research focuses on explaiable AI for object detection
+              algorithms as well as{" "}
+              <a href="https://visdunneright.github.io/Privacy-Plot-Viewer/">
+                visualization for private data
+              </a>
+              . I am currently working on evaluating the quality of{" "}
+              <a href="https://towardsdatascience.com/creating-synthetic-time-series-data-67223ff08e34">
+                synthetic time series data
+              </a>
+              . My goal is to help everyday users evaluate and assess the
+              utility of complicated model outputs. If this area of research
+              interests you, please reach out to me for more information or to
+              set up collaborations.
+            </Paragraph>
+            {/* <Paragraph>{user.basics.summary}</Paragraph> */}
           </div>
         </Col>
       </Row>

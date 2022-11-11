@@ -5,7 +5,7 @@
     "label": "",
     "headline": "",
     "summary": "I am a CS PhD student at the Data Visualization Lab at Northeastern University advised by Cody Dunne. My research focuses on explaiable AI for object detection algorithms as well as visualization for private data. My goal is to help everyday users evaluate and assess the utility of complicated model outputs. If this area of research interests you, please reach out to me for more information or to set up collaborations.",
-    "website": "https://lpanavas.github.io/personalSite/",
+    "website": "https://lpanavas.github.io/",
     "blog": "",
     "yearsOfExperience": 5,
     "email": "",
@@ -74,17 +74,37 @@
       "link": "https://neu-cs-7250-s21.github.io/project-group-03-omicsynth/"
     }
   ],
-  "selectedpapers": [
-    {
-      "title": "Drawing Graphs with Multi-level Maps",
-      "summary": "We present a method for drawing a graph with superimposed multi-level maps. Our method uses either a provided or derived hierarchy of the graph to create sub-graph regions of the map at varying zoom levels.",
-      "image": "mgmap.png",
-      "link": "/personalSite/publications"
-    }
-  ],
+
   "projects": [
     {
-      "title": "Privacy Preserving Data Visualizatoin",
+      "title": "Object Detection Algorithm Evaluation",
+      "summary": "",
+      "entries": [
+        {
+          "title": "A Visual Analytics System to Evaluate and Compare Multiple Object Detection Algorithms",
+          "html": [
+            {
+              "p": "Object detection algorithms are important for a variety of people. These algorithms output bounding boxes that are compared against ground truth bounding boxes. A variety of metrics have been created to evaluate the efficacy of the algorithms in capturing the specified objects. These metrics can be linked to tasks and provide useful information for comparing algorithms."
+            },
+            {
+              "p": "Aggregate metrics begin to provide information on how the models underperform but do not describe why. Additionally, these metrics do not provide a way to conduct an exploratory analysis and evaluation of the model outputs."
+            },
+            {
+              "image": {
+                "src": "DAC.png",
+                "caption": "Prototype visual analytics system to investigate object detection algorithms for drones developed at Northeastern.",
+                "width": 720
+              }
+            },
+            {
+              "p": "To help fix this problem  we propose a system that expands, decomposes, and compares common evaluation metrics to help users explore and identify the failure cases they are interested in. We will explore ways of describing and grouping images together to allow insight into what inputs cause failures and why they may cause those failures. This system helps close the loop for model evaluators and provides actionable insights into how to improve the model and how to choose the model best suited for you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Privacy Preserving Data Visualization",
       "summary": "Investigating the visual utility of scatterplots under a variety of differential privacy mechanisms to provide guidance for data curators wishing to display sensitive data.",
       "entries": [
         {
@@ -118,6 +138,14 @@
   "publications": {
     "journal": [],
     "conference": [
+      {
+        "title": "Visual utility evaluation of differentially private scatterplots",
+        "authors": "Panavas, L., Crnovrsanin, T., Adams,  J., Sargavad, A., Tory, M., Ullman, J., & Dunne, C.",
+        "venue": "IEEE VIS: Visualization & Visual Analytics (VIS)",
+        "year": "2022",
+        "url": "https://osf.io/5t68s/",
+        "image": "Panavas2022VisualUtilityEvaluation.png"
+      },
       {
         "title": "Juvenile Graphical Perception: A Comparison between Children and Adults",
         "authors": "Panavas, L., Worth, A., Crnovrsanin, T., Sathyamurthi, T., Cordes, S., Borkin, M. A., & Dunne, C.",

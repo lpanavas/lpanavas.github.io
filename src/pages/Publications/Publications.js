@@ -49,11 +49,7 @@ const Publications = ({ user }) => {
   return (
     <Layout user={user}>
       <div>
-        <SectionTitle id="journal">Journal Publications</SectionTitle>
-        <Papers papers={user.publications.journal} />
-      </div>
-      <div>
-        <SectionTitle id="conference">Conference Publications</SectionTitle>
+        <SectionTitle id="conference">Publications</SectionTitle>
         <Papers papers={user.publications.conference} />
       </div>
     </Layout>
