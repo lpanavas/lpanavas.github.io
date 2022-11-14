@@ -91,7 +91,7 @@
             },
             {
               "image": {
-                "src": "DAC.png",
+                "src": "DAC.PNG",
                 "caption": "Prototype visual analytics system to investigate object detection algorithms for drones developed at Northeastern.",
                 "width": 720
               }
