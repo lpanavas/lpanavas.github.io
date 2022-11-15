@@ -64,6 +64,16 @@ const Home = ({ user }) => {
               interests you, please reach out to me for more information or to
               set up collaborations.
             </Paragraph>
+            <Paragraph>
+              {" "}
+              In my spare time I also enjoy activities such as hiking &#129406;
+              (White mountains, camping), reading &#128218; (fantasy, memoirs,
+              sci-fi), boxing &#129354; (really clears the head), traveling
+              &#9992; (hope to see more of South America), pickleball &#127934;
+              (everyones doing it these days), basketball &#127936; (would help
+              to hit another growth spurt), and building &#128666; (I have
+              joined the masses of van lifers).
+            </Paragraph>
             {/* <Paragraph>{user.basics.summary}</Paragraph> */}
           </div>
         </Col>
