@@ -34,6 +34,13 @@ const Home = ({ user }) => {
           <div>
             <SectionTitle>About Me</SectionTitle>
             <Paragraph>
+              Going to put this front and center: I am currently in search of an{" "}
+              <b>internship</b> &#128188;. Please read more about my interests{" "}
+              <a href="https://vis.khoury.northeastern.edu/blog/2022-12-05-interns/">
+                here
+              </a>
+            </Paragraph>
+            <Paragraph>
               I am a CS PhD student at the{" "}
               <a href="https://visualization.khoury.northeastern.edu/#/">
                 Northeastern University Data Visualization Lab
@@ -50,12 +57,14 @@ const Home = ({ user }) => {
             </Paragraph>
             <Paragraph>
               {" "}
-              My research focuses on explaiable AI for object detection
+              My research focuses on explainable AI for object detection
               algorithms as well as{" "}
               <a href="https://visdunneright.github.io/Privacy-Plot-Viewer/">
                 visualization for private data
               </a>
-              . I am currently working on evaluating the quality of{" "}
+              . I am currently working on using set visualizations to compare
+              object detection models, interviewing Differential Privacy
+              experts, and evaluating the quality of{" "}
               <a href="https://towardsdatascience.com/creating-synthetic-time-series-data-67223ff08e34">
                 synthetic time series data
               </a>
@@ -74,6 +83,7 @@ const Home = ({ user }) => {
               to hit another growth spurt), and building &#128666; (I have
               joined the masses of van lifers).
             </Paragraph>
+
             {/* <Paragraph>{user.basics.summary}</Paragraph> */}
           </div>
         </Col>
