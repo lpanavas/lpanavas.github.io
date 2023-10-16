@@ -22,6 +22,16 @@ const items = [
     // ],
   },
   {
+    name: "Work",
+    path: "/work",
+    // subpath: [
+    //   {
+    //     name: "Conference",
+    //     path: "/publications#conference",
+    //   },
+    // ],
+  },
+  {
     name: "Publications",
     path: "/publications",
     // subpath: [

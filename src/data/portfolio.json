@@ -50,6 +50,24 @@
   ],
   "selectedprojects": [
     {
+      "title": "Set Visualization for Object Detection Model Comparison",
+      "summary": "We developed a system that leverages set visualizations to facilitate model-to-model comparisons in object detection, offering a nuanced analysis of unique strengths and weaknesses, thereby streamlining the model selection process and providing insights obscured by traditional ground-truth-based evaluation metrics.",
+      "image": "setmlvis.png",
+      "link": "https://drive.google.com/file/d/1n67DYBx2umxzp3ge0iocp-JH9Ul1en6U/view?usp=drive_link"
+    },
+    {
+      "title": "Visualization for Differential Privacy Practioners: Interview Study",
+      "summary": "We conducted interviews with 18 professionals to explore the role and challenges of visualization in differential privacy implementation, identifying five stages of deployment, key actors, and potential applications, and subsequently proposed four research directions to address existing gaps in visual tools for both differential privacy experts and domain specialists.",
+      "image": "DPInterviews.png",
+      "link": "https://osf.io/htxqv?view_only=1a5c7d7553c840ab9f125d88bc13946f"
+    },
+    {
+      "title": "Auditing the EU AI Act",
+      "summary": "Our interactive survey assesses public opinion on the EU's AI Act, identifying discrepancies between legislative and public risk perceptions in technologies like deep fakes and election manipulation",
+      "image": "EUAudit.png",
+      "link": "http://ec2-3-17-65-53.us-east-2.compute.amazonaws.com/"
+    },
+    {
       "title": "Visual Utility of Differentially Private Scatterplots",
       "summary": "Investigating the visual utility of scatterplots under a variety of differential privacy mechanisms to provide guidance for data curators wishing to display sensitive data.",
       "image": "scatterplotPoster.png",
@@ -69,12 +87,11 @@
     },
     {
       "title": "OmicSynth Gene Expression Explorer",
-      "summary": "We conducted a classic graphical perception study on a population of children aged 8–12 and college-aged adults to determine how accurately participants judge differences of particular graphical encodings.",
+      "summary": "We developed omicSynth, a visualization tool that enables biologists to explore correlations between specific genes and neurodegenerative diseases based on selected biological tests, offering features like stacked bar graphs, sorting, scented widgets for data filtering, and an unlinked parallel coordinates and table view for gene-specific analysis..",
       "image": "omicSynth.PNG",
       "link": "https://neu-cs-7250-s21.github.io/project-group-03-omicsynth/"
     }
   ],
-
   "projects": [
     {
       "title": "Object Detection Algorithm Evaluation",
@@ -91,7 +108,7 @@
             },
             {
               "image": {
-                "src": "DAC.PNG",
+                "src": "setmlvis.png",
                 "caption": "Prototype visual analytics system to investigate object detection algorithms for drones developed at Northeastern.",
                 "width": 720
               }
@@ -123,7 +140,6 @@
             {
               "p": "Many analyses are done on the interaction between two variables. Scatterplots are a common way to get a sense of interesting patterns and distributions between two variables. Releasing scatterplots without privacy addition is not possible because the points correspond to individuals. Other privacy additions such as anonymity or jittering the data do not necessarily preserve the privacy of the individuals. Differential privacy is a mechanism that does guarantee privacy against a broad range of attacks in a quantifiable way. We can apply differential privacy to scatterplots to release the data in a privacy preserving way."
             },
-
             {
               "p": "Different algorithms can produce scatter plots that have the same average range or count error but produce very different visual representations. To fix this problem we have experts evaluate the utility of the private scatterplots. Using these metrics we compare 5 popular differential privacy algorithms across a range of data sets, tasks, bins sizes, and privacy levels. We match the visual characteristics to certain tasks users may want to complete with scatterplots to help data curators discern which type of algorithm is best for them to use when presenting private data visually."
             },
@@ -139,9 +155,9 @@
     "journal": [],
     "conference": [
       {
-        "title": "Visual utility evaluation of differentially private scatterplots",
+        "title": "Visual utility evaluation of differentially private scatterplots (Poster)",
         "authors": "Panavas, L., Crnovrsanin, T., Adams,  J., Sargavad, A., Tory, M., Ullman, J., & Dunne, C.",
-        "venue": "IEEE VIS: Visualization & Visual Analytics (VIS)",
+        "venue": "IEEE VIS: Visualization & Visual Analytics (VIS) ",
         "year": "2022",
         "url": "https://osf.io/5t68s/",
         "image": "Panavas2022VisualUtilityEvaluation.png"
@@ -156,7 +172,94 @@
       }
     ]
   },
-
+  "work": [
+    {
+      "title": "Differential Privacy Jitter",
+      "type": "Notebook",
+      "url": "https://colab.research.google.com/drive/1qWOAmJDVRnSm33v3WEB8Kp5FnAoRJp-j?usp=sharing",
+      "image": "jitter.PNG",
+      "summary": "This notebooks shows why jittering scatterplot data or binning is not enough to protect privacy.",
+      "date": "2022-02-02",
+      "tags": [
+        "Differential Privacy",
+        "Privacy",
+        "Data Visualization",
+        "Scatterplot",
+        "Jitter"
+      ],
+      "project": "Differential Privacy Visualization"
+    },
+    {
+      "title": "Differential Privacy Formal Definition",
+      "type": "Notebook",
+      "url": "https://colab.research.google.com/drive/14vpkg5onWzMbGZyUrh7wbWrnSOx7Mr5m?usp=sharing",
+      "image": "fomalDefinition.png",
+      "summary": "In this notebook I want to try to visually explain the formal definition of differential privacy and relate it to scatterplots.",
+      "date": "2022-21-06",
+      "tags": ["Differential Privacy", "Privacy", "Data Visualization"],
+      "project": "Differential Privacy Visualization"
+    },
+    {
+      "title": "Count and Epsilon Relationship",
+      "type": "Notebook",
+      "url": "https://colab.research.google.com/drive/1jJzU9KFZiIQjk_Udn4oDNkCO1560arjR?usp=sharing",
+      "image": "countEpsilonPlay.gif",
+      "summary": "This notebooks shows interactively the relationship between count and epsilon for histograms.",
+      "tags": [
+        "Differential Privacy",
+        "Privacy",
+        "Data Visualization",
+        "Scatterplot",
+        "Jitter"
+      ],
+      "project": "Differential Privacy Visualization"
+    },
+    {
+      "title": "Differential Privacy Jitter",
+      "type": "Notebook",
+      "url": "https://colab.research.google.com/drive/1qWOAmJDVRnSm33v3WEB8Kp5FnAoRJp-j?usp=sharing",
+      "image": "jitter.PNG",
+      "summary": "This notebooks shows why jittering scatterplot data or binning is not enough to protect privacy.",
+      "tags": [
+        "Differential Privacy",
+        "Privacy",
+        "Data Visualization",
+        "Scatterplot",
+        "Jitter"
+      ],
+      "project": "Differential Privacy Visualization"
+    },
+    {
+      "title": "Differential Privacy Jitter",
+      "type": "Notebook",
+      "url": "https://colab.research.google.com/drive/1qWOAmJDVRnSm33v3WEB8Kp5FnAoRJp-j?usp=sharing",
+      "image": "jitter.PNG",
+      "summary": "This notebooks shows why jittering scatterplot data or binning is not enough to protect privacy.",
+      "tags": [
+        "Differential Privacy",
+        "Privacy",
+        "Data Visualization",
+        "Scatterplot",
+        "Jitter"
+      ],
+      "project": "Differential Privacy Visualization"
+    },
+    {
+      "title": "Differential Privacy Jitter",
+      "type": "Notebook",
+      "url": "https://colab.research.google.com/drive/1qWOAmJDVRnSm33v3WEB8Kp5FnAoRJp-j?usp=sharing",
+      "image": "jitter.PNG",
+      "summary": "This notebooks shows why jittering scatterplot data or binning is not enough to protect privacy.",
+      "tags": [
+        "Differential Privacy",
+        "Privacy",
+        "Data Visualization",
+        "Scatterplot",
+        "Jitter"
+      ],
+      "project": "Differential Privacy Visualization"
+    }
+  ],
   "awards": [],
   "press": [],
   "languages": [],

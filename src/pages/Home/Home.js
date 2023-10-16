@@ -3,22 +3,25 @@ import Layout from "../../components/Layout";
 import { SectionTitle, Paragraph } from "../../styles";
 import { Col, Image, Row, Card, CardDeck } from "react-bootstrap";
 import Media from "../../components/Media";
+import "../../Styles/homePage.css";
 // import { ProfileLink } from './styles';
 
 const Cards = ({ items }) => {
   return (
-    <CardDeck>
+    <Row>
       {items.map((item, index) => (
-        <Card key={index} style={{ width: "22rem" }}>
-          <Card.Img variant="top" src={item.image} />
-          <Card.Body>
-            <Card.Title>{item.title}</Card.Title>
-            <Card.Text>{item.summary}</Card.Text>
-            <Card.Link href={item.link}>Details</Card.Link>
-          </Card.Body>
-        </Card>
+        <Col md={4} key={index} className="d-flex">
+          <Card className="flex-grow-1" style={{ marginBottom: "20px" }}>
+            <Card.Img variant="top" src={item.image} />
+            <Card.Body>
+              <Card.Title>{item.title}</Card.Title>
+              <Card.Text>{item.summary}</Card.Text>
+              <Card.Link href={item.link}>Details</Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
       ))}
-    </CardDeck>
+    </Row>
   );
 };
 
@@ -35,10 +38,7 @@ const Home = ({ user }) => {
             <SectionTitle>About Me</SectionTitle>
             <Paragraph>
               Going to put this front and center: I am currently in search of an{" "}
-              <b>internship</b> &#128188;. Please read more about my interests{" "}
-              <a href="https://vis.khoury.northeastern.edu/blog/2022-12-05-interns/">
-                here
-              </a>
+              <b>internship</b> &#128188; for the Summer of 2024.
             </Paragraph>
             <Paragraph>
               I am a CS PhD student at the{" "}
@@ -60,13 +60,7 @@ const Home = ({ user }) => {
               My research focuses on explainable AI for object detection
               algorithms as well as{" "}
               <a href="https://visdunneright.github.io/Privacy-Plot-Viewer/">
-                visualization for private data
-              </a>
-              . I am currently working on using set visualizations to compare
-              object detection models, interviewing Differential Privacy
-              experts, and evaluating the quality of{" "}
-              <a href="https://towardsdatascience.com/creating-synthetic-time-series-data-67223ff08e34">
-                synthetic time series data
+                visualization for differentially private data
               </a>
               . My goal is to help everyday users evaluate and assess the
               utility of complicated model outputs. If this area of research
@@ -74,14 +68,17 @@ const Home = ({ user }) => {
               set up collaborations.
             </Paragraph>
             <Paragraph>
-              {" "}
-              In my spare time I also enjoy activities such as hiking &#129406;
-              (White mountains, camping), reading &#128218; (fantasy, memoirs,
-              sci-fi), boxing &#129354; (really clears the head), traveling
-              &#9992; (hope to see more of South America), pickleball &#127934;
-              (everyones doing it these days), basketball &#127936; (would help
-              to hit another growth spurt), and building &#128666; (I have
-              joined the masses of van lifers).
+              I've had the privilege to work with amazing collaborators at
+              research institutions and corporate labs. Notably, I interned at
+              Nokia Bell Labs, where I engineered a cloud-based survey to gather
+              public sentiment on EU AI policy. Concurrently, I served as an
+              OpenDP Fellow at Harvard University's Privacy Tools Project,
+              conducting practitioner interviews to pinpoint challenges in the
+              field of differential privacy. I have also worked with collaborats
+              from Columbia University, the Roux, and UMass Amherst. Across
+              these experiences, my core strengths lie in data visualization,
+              quantitative analysis, and full-stack development, primarily using
+              Python and JavaScript.
             </Paragraph>
 
             {/* <Paragraph>{user.basics.summary}</Paragraph> */}
