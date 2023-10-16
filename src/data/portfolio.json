@@ -213,51 +213,6 @@
         "Jitter"
       ],
       "project": "Differential Privacy Visualization"
-    },
-    {
-      "title": "Differential Privacy Jitter",
-      "type": "Notebook",
-      "url": "https://colab.research.google.com/drive/1qWOAmJDVRnSm33v3WEB8Kp5FnAoRJp-j?usp=sharing",
-      "image": "jitter.PNG",
-      "summary": "This notebooks shows why jittering scatterplot data or binning is not enough to protect privacy.",
-      "tags": [
-        "Differential Privacy",
-        "Privacy",
-        "Data Visualization",
-        "Scatterplot",
-        "Jitter"
-      ],
-      "project": "Differential Privacy Visualization"
-    },
-    {
-      "title": "Differential Privacy Jitter",
-      "type": "Notebook",
-      "url": "https://colab.research.google.com/drive/1qWOAmJDVRnSm33v3WEB8Kp5FnAoRJp-j?usp=sharing",
-      "image": "jitter.PNG",
-      "summary": "This notebooks shows why jittering scatterplot data or binning is not enough to protect privacy.",
-      "tags": [
-        "Differential Privacy",
-        "Privacy",
-        "Data Visualization",
-        "Scatterplot",
-        "Jitter"
-      ],
-      "project": "Differential Privacy Visualization"
-    },
-    {
-      "title": "Differential Privacy Jitter",
-      "type": "Notebook",
-      "url": "https://colab.research.google.com/drive/1qWOAmJDVRnSm33v3WEB8Kp5FnAoRJp-j?usp=sharing",
-      "image": "jitter.PNG",
-      "summary": "This notebooks shows why jittering scatterplot data or binning is not enough to protect privacy.",
-      "tags": [
-        "Differential Privacy",
-        "Privacy",
-        "Data Visualization",
-        "Scatterplot",
-        "Jitter"
-      ],
-      "project": "Differential Privacy Visualization"
     }
   ],
   "awards": [],
