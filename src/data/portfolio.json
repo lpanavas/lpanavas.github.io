@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Liudas Panavas",
-    "picture": "happyTwitterPic.jpg",
+    "picture": "headshot.jpg",
     "label": "",
     "headline": "",
     "summary": "I am a CS PhD student at the Data Visualization Lab at Northeastern University advised by Cody Dunne. My research focuses on explaiable AI for object detection algorithms as well as visualization for private data. My goal is to help everyday users evaluate and assess the utility of complicated model outputs. If this area of research interests you, please reach out to me for more information or to set up collaborations.",
@@ -177,7 +177,7 @@
       "title": "Differential Privacy Jitter",
       "type": "Notebook",
       "url": "https://colab.research.google.com/drive/1qWOAmJDVRnSm33v3WEB8Kp5FnAoRJp-j?usp=sharing",
-      "image": "jitter.PNG",
+      "image": "jitter.png",
       "summary": "This notebooks shows why jittering scatterplot data or binning is not enough to protect privacy.",
       "date": "2022-02-02",
       "tags": [
@@ -205,6 +205,7 @@
       "url": "https://colab.research.google.com/drive/1jJzU9KFZiIQjk_Udn4oDNkCO1560arjR?usp=sharing",
       "image": "countEpsilonPlay.gif",
       "summary": "This notebooks shows interactively the relationship between count and epsilon for histograms.",
+      "date": "2023-21-06",
       "tags": [
         "Differential Privacy",
         "Privacy",

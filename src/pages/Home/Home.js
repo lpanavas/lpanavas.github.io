@@ -30,7 +30,11 @@ const Home = ({ user }) => {
     <Layout user={user}>
       <Row>
         <Col>
-          <Image src="happyTwitterPic.jpg" width={360} />
+          <Image
+            src="headshot.jpg"
+            width={400}
+            style={{ paddingTop: "40px" }}
+          />
           <Media media={user.basics} />
         </Col>
         <Col>
@@ -69,16 +73,19 @@ const Home = ({ user }) => {
             </Paragraph>
             <Paragraph>
               I've had the privilege to work with amazing collaborators at
-              research institutions and corporate labs. Notably, I interned at
-              Nokia Bell Labs, where I engineered a cloud-based survey to gather
-              public sentiment on EU AI policy. Concurrently, I served as an
-              OpenDP Fellow at Harvard University's Privacy Tools Project,
-              conducting practitioner interviews to pinpoint challenges in the
-              field of differential privacy. I have also worked with collaborats
-              from Columbia University, the Roux, and UMass Amherst. Across
-              these experiences, my core strengths lie in data visualization,
-              quantitative analysis, and full-stack development, primarily using
-              Python and JavaScript.
+              research institutions and corporate labs. Notably, I interned at{" "}
+              <a href="https://social-dynamics.net/">Nokia Bell Labs</a>, where
+              I engineered a cloud-based survey to gather public sentiment on EU
+              AI policy. Concurrently, I served as an{" "}
+              <a href="https://opendp.org/blog/meet-2023-opendp-fellows-pauline-maury-laribiere-and-liudas-panavas">
+                OpenDP Fellow
+              </a>{" "}
+              at Harvard University's Privacy Tools Project, conducting
+              practitioner interviews to pinpoint challenges in the field of
+              differential privacy. I have also worked with collaborators from{" "}
+              <a href="https://rachelcummings.com/">Columbia University</a>,{" "}
+              <a href="https://www.melanietory.com/">the Roux Institute</a>, and{" "}
+              <a href="https://groups.cs.umass.edu/asarv/">UMass Amherst</a>.
             </Paragraph>
 
             {/* <Paragraph>{user.basics.summary}</Paragraph> */}
