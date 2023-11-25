@@ -41,8 +41,8 @@ const Home = ({ user }) => {
           <div>
             <SectionTitle>About Me</SectionTitle>
             <Paragraph>
-              Going to put this front and center: I am currently in search of an{" "}
-              <b>internship</b> &#128188; for the Summer of 2024.
+              I am currently in search of an <b>internship</b> &#128188; for the
+              Summer of 2024.
             </Paragraph>
             <Paragraph>
               I am a CS PhD student at the{" "}

@@ -25,6 +25,12 @@ const Work = ({ user }) => {
 
   return (
     <Layout user={user}>
+      This is a collection of my work. While working on academic papers there is
+      often many iterations of notebooks, websites, or writing that is lost in
+      the process. All that comes out is one final paper from 8 months of work.
+      Here I want to highlight some of the those steps or random side projects
+      that I've done. They may not all be well documented or curated but they
+      were all interesting and fun to make.
       <div className="card-container">
         {user.work.map((item, index) => (
           <div className="card" key={index}>

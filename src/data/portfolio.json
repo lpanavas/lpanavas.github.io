@@ -187,6 +187,7 @@
         "Scatterplot",
         "Jitter"
       ],
+      "technologies": ["Python", "Jupyter", "Colab", "diffprivlib"],
       "project": "Differential Privacy Visualization"
     },
     {
@@ -197,6 +198,7 @@
       "summary": "In this notebook I want to try to visually explain the formal definition of differential privacy and relate it to scatterplots.",
       "date": "2022-21-06",
       "tags": ["Differential Privacy", "Privacy", "Data Visualization"],
+      "technologies": ["Python", "Jupyter", "Colab", "diffprivlib"],
       "project": "Differential Privacy Visualization"
     },
     {
@@ -213,10 +215,223 @@
         "Scatterplot",
         "Jitter"
       ],
+      "technologies": [
+        "Python",
+        "Jupyter",
+        "Colab",
+        "diffprivlib",
+        "Plotly",
+        "Dash"
+      ],
       "project": "Differential Privacy Visualization"
+    },
+    {
+      "title": "Differential Privacy Scenarios",
+      "type": "Website",
+      "url": "https://diff-privacy-customization.vercel.app/",
+      "image": "scenarios.PNG",
+      "summary": "This website uses the openAI api to create realistic differential privacy risk scenarios for user input. Created using React, openAI api, and hosted on Vercel.",
+      "date": "2023-10-06",
+      "tags": ["Differential Privacy", "Privacy", "Risk"],
+      "technologies": ["React", "API", "openAI", "Vercel"],
+      "project": "Differential Privacy Visualization"
+    },
+    {
+      "title": "Risk Classification of AI technologies by EU AI act",
+      "type": "Website",
+      "url": "https://high-risk-classifier.vercel.app/",
+      "image": "riskAIClassification.PNG",
+      "summary": "This website takes in five different aspects of an AI technology and classifies it as high risk or not based on the EU AI act. The app inputs this into a prompt engineereed directly from the EU AI act to get a correct classification.",
+      "date": "2023-10-07",
+      "tags": ["AI", "Responsible AI", "EU AI Act"],
+      "technologies": ["React", "API", "openAI", "Vercel"],
+      "project": "Responsible AI"
+    },
+    {
+      "title": "Differential Privacy Education Website",
+      "type": "Website",
+      "url": "https://lpanavas.github.io/differentialPrivacyLine/",
+      "image": "privacyplotWebsite.gif",
+      "summary": "Work in Progress: The goal of this site is to allow people to examine different differential privacy parameters and understand the privacy and accuracy tradeoff.",
+      "date": "2023-10-12",
+      "tags": ["Differential Privacy", "Privacy", "Education"],
+      "technologies": ["React", "D3"],
+      "project": "Differential Privacy Visualization"
+    },
+    {
+      "title": "Responsible AI survey",
+      "type": "Website",
+      "url": "http://ec2-3-17-65-53.us-east-2.compute.amazonaws.com/",
+      "image": "EUAudit.png",
+      "summary": "Our interactive survey assesses public opinion on the EU's AI Act, identifying discrepancies between legislative and public risk perceptions in technologies like deep fakes and election manipulation.",
+      "date": "2023-01-09",
+      "tags": ["AI", "Responsible AI", "EU AI Act"],
+      "technologies": ["React", "Express", "AWS", "MongoDB"],
+      "project": "Responsible AI"
+    },
+    {
+      "title": "Animated Conversation and Score Game",
+      "type": "Website",
+      "url": "https://lpanavas.github.io/scoreComparisonSetPercentageSplit/",
+      "image": "interactiveEU.gif",
+      "summary": "Prototype: This website was experimenting with a conversational chat feature in a game and trying out a gamifaction element where participants had to correctly guess the percentage of public that agrees with them.",
+      "date": "2023-30-06",
+      "tags": ["AI", "Responsible AI", "EU AI Act"],
+      "technologies": ["React", "Animation"],
+      "project": "Responsible AI"
+    },
+    {
+      "title": "Drag and Drop Game",
+      "type": "Website",
+      "url": "https://lpanavas.github.io/RAICardGame/",
+      "image": "raiCardGame.gif",
+      "summary": "Prototype: This website was trying to make a game of ordering different AI technologies by most to least acceptable.",
+      "date": "2023-01-06",
+      "tags": ["AI", "Responsible AI", "EU AI Act"],
+      "technologies": ["React"],
+      "project": "Responsible AI"
+    },
+    {
+      "title": "Emotion Analysis Website",
+      "type": "Website",
+      "url": "https://lpanavas.github.io/EmotionAnalysis/videoAnalysis.html",
+      "image": "emotionAnalysis.gif",
+      "summary": "Prototype: This website was using emotion analysis models to detect emotions in videos and display the results.",
+      "date": "2021-01-06",
+      "tags": ["Object Detection", "Emotion Analysis"],
+      "technologies": ["Javascript", "D3", "OpenCV", "Object Detection"],
+      "project": "Side Projects"
+    },
+    {
+      "title": "Data Visualization Network",
+      "type": "Website",
+      "url": "https://lpanavas.github.io/HuskyNetwork/",
+      "image": "huskyNetwork.png",
+      "summary": "This website shows the the data visualization network at Northeastern University. It was created using D3 and the force directed graph layout.",
+      "date": "2021-01-01",
+      "tags": ["Networks"],
+      "technologies": ["Javascript", "D3"],
+      "project": "Side Projects"
+    },
+    {
+      "title": "Binaural Sound in VR",
+      "type": "Experiment",
+      "url": "https://github.com/lpanavas/BinauralSound",
+      "image": "vrExperiment.gif",
+      "summary": "This study was made in VR using Unity and C#. It was an experiment to see if binaural sound could be used to help people navigate in VR for pop out effects.",
+      "date": "2020-01-12",
+      "tags": ["Virtual Reality"],
+      "technologies": ["Unity", "C#"],
+      "project": "Side Projects"
+    },
+    {
+      "title": "Supplemental materials for 'Visual Utility of Privacy Preserving Scatterplots'",
+      "type": "Experiment",
+      "url": "https://github.com/VisDunneRight/DiffPrivacyScatterplotUtility/tree/master",
+      "image": "dpScatterplotStimuli.png",
+      "summary": "A collection of all the stimuli and analysis for the paper 'Visual Utility of Privacy Preserving Scatterplots'. This includes a variety of notebooks to generate differentially private scatterplots.",
+      "date": "2022-01-06",
+      "tags": [
+        "Scatterplot",
+        "Differential Privacy",
+        "Privacy",
+        "Statistical Analysis"
+      ],
+      "technologies": ["Python", "Jupyter", "Colab", "diffprivlib"],
+      "project": "Papers"
+    },
+    {
+      "title": "Website to examine private scatterplots",
+      "type": "Website",
+      "url": "https://visdunneright.github.io/Privacy-Plot-Viewer/",
+      "image": "privateScatterplot.gif",
+      "summary": "The results of the paper 'Visual Utility of Privacy Preserving Scatterplots' are displayed on this website. This website allows users to explore the differentially private scatterplots and compare them to the original scatterplot.",
+      "date": "2022-01-11",
+      "tags": ["Scatterplot", "Differential Privacy", "Privacy"],
+      "technologies": ["Javascript", "React"],
+      "project": "Papers"
+    },
+    {
+      "title": "Study website to gather data on private scatterplots",
+      "type": "Website",
+      "url": "https://visdunneright.github.io/UserStudyScatter/",
+      "image": "userStudyWebsite.png",
+      "summary": "A website that can be used to gather data for many study types. Code can be found here: https://github.com/VisDunneRight/UserStudyScatter.",
+      "date": "2022-01-10",
+      "tags": ["Scatterplot", "Differential Privacy", "Privacy"],
+      "technologies": ["Javascript", "React"],
+      "project": "Papers"
+    },
+
+    {
+      "title": "Notebook to investigate dimensionality reduction on time series data.",
+      "type": "Notebook",
+      "url": "https://colab.research.google.com/drive/1_jO5AKabiK3q4ejecWOmoUn_MKGP9nw0?usp=sharing",
+      "image": "timeSeriesSyntheticData.gif",
+      "summary": "This notebook explores how we can use dimensionality reduction with data preprocessing to examine differences in time series data. The goal here was to see if this technique could work for evaluating synthetic time series data visually.",
+      "date": "2022-10-12",
+      "tags": ["Synthetic Data", "Time Series", "Dimensionality Reduction"],
+      "technologies": [
+        "Python",
+        "Jupyter",
+        "Colab",
+        "Dimensionality Reduction",
+        "Plotly"
+      ],
+      "project": "Side Projects"
+    },
+    {
+      "title": "Study website to gather data on private scatterplots",
+      "type": "Notebook",
+      "url": "https://colab.research.google.com/drive/1ZeyW2mWWOpDWZFsOyMStzZgEaKqQSBML?usp=sharing",
+      "image": "syntheticGunData.png",
+      "summary": "Prototype: This notebook explored the ability to generate synthetic data using Y-data synthetics library. Because of the way the data is preprocessed by the algorithm, the data does not match the original data.",
+      "date": "2022-12-12",
+      "tags": ["Synthetic Data", "Time Series"],
+      "technologies": [
+        "Python",
+        "Jupyter",
+        "Colab",
+        "Synythetic Data",
+        "Plotly"
+      ],
+      "project": "Side Projects"
+    },
+    {
+      "title": "Notebook exploring Gretel Time Series Synthetic Data",
+      "type": "Notebook",
+      "url": "https://colab.research.google.com/drive/1iMxl6ZdZlkiUmkwS16rCaPWKe-9EGO1u?usp=sharing",
+      "image": "timeSeriesVisuals.png",
+      "summary": "This notebook created synthetic time series data using Gretel Time Series Synthetic Data. It then explored how the data could be visualized to see if it was useful for data analysis.",
+      "date": "2021-12-12",
+      "tags": ["Time Series", "Synthetic Data"],
+      "technologies": [
+        "Python",
+        "Jupyter",
+        "Colab",
+        "Plotly",
+        "Synythetic Data"
+      ],
+      "project": "Side Projects"
+    },
+    {
+      "title": "Notebook exploring a private scatterplot visual",
+      "type": "Notebook",
+      "url": "https://colab.research.google.com/drive/1rFUch4C4UdDC5QCrdAscymg0vJnHcDCJ?usp=sharing",
+      "image": "visualizationB.png",
+      "summary": "This notebook was exploring how a private scatterplot was generated that inspired the paper 'Visual Utility of Privacy Preserving Scatterplots'. I examined how the privacy accuracy tradeoff worked for a smaller dataset.",
+      "date": "2021-12-12",
+      "tags": ["Differential Privacy", "Scatterplot"],
+      "technologies": ["Python", "Jupyter", "Colab", "diffprivlib"],
+      "project": "Papers"
     }
   ],
-  "awards": [],
+  "CV": [
+    {
+      "location": "LiudasPanavasResume.pdf"
+    }
+  ],
+
   "press": [],
   "languages": [],
   "interests": [],

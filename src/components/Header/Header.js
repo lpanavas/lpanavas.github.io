@@ -51,6 +51,16 @@ const items = [
     //   },
     // ],
   },
+  {
+    name: "CV",
+    path: "/CV",
+    // subpath: [
+    //   {
+    //     name: "Research",
+    //     path: "/projects#research",
+    //   },
+    // ],
+  },
 ];
 
 const Header = () => {
