@@ -229,7 +229,7 @@
       "title": "Differential Privacy Scenarios",
       "type": "Website",
       "url": "https://diff-privacy-customization.vercel.app/",
-      "image": "scenarios.PNG",
+      "image": "scenarios.png",
       "summary": "This website uses the openAI api to create realistic differential privacy risk scenarios for user input. Created using React, openAI api, and hosted on Vercel.",
       "date": "2023-10-06",
       "tags": ["Differential Privacy", "Privacy", "Risk"],
@@ -240,7 +240,7 @@
       "title": "Risk Classification of AI technologies by EU AI act",
       "type": "Website",
       "url": "https://high-risk-classifier.vercel.app/",
-      "image": "riskAIClassification.PNG",
+      "image": "riskAIClassification.png",
       "summary": "This website takes in five different aspects of an AI technology and classifies it as high risk or not based on the EU AI act. The app inputs this into a prompt engineereed directly from the EU AI act to get a correct classification.",
       "date": "2023-10-07",
       "tags": ["AI", "Responsible AI", "EU AI Act"],
@@ -338,7 +338,7 @@
         "Statistical Analysis"
       ],
       "technologies": ["Python", "Jupyter", "Colab", "diffprivlib"],
-      "project": "Papers"
+      "project": "Differential Privacy Visualization"
     },
     {
       "title": "Website to examine private scatterplots",
@@ -349,7 +349,7 @@
       "date": "2022-01-11",
       "tags": ["Scatterplot", "Differential Privacy", "Privacy"],
       "technologies": ["Javascript", "React"],
-      "project": "Papers"
+      "project": "Differential Privacy Visualization"
     },
     {
       "title": "Study website to gather data on private scatterplots",
@@ -360,7 +360,7 @@
       "date": "2022-01-10",
       "tags": ["Scatterplot", "Differential Privacy", "Privacy"],
       "technologies": ["Javascript", "React"],
-      "project": "Papers"
+      "project": "Differential Privacy Visualization"
     },
 
     {
@@ -423,7 +423,40 @@
       "date": "2021-12-12",
       "tags": ["Differential Privacy", "Scatterplot"],
       "technologies": ["Python", "Jupyter", "Colab", "diffprivlib"],
-      "project": "Papers"
+      "project": "Differential Privacy Visualization"
+    },
+    {
+      "title": "Notebook exploring simplified reconstruction attack",
+      "type": "Notebook",
+      "url": "https://colab.research.google.com/drive/1Fjd4rMRJI1ufdIlzCpwKzsKEXSpFMvMa?usp=sharing",
+      "image": "reconstruction.png",
+      "summary": "This notebook was exploring what a reconstruction attack could look like. We use k anoniminty to protect the data but with enough queries we are able to correctly identify the individuals.",
+      "date": "2022-12-12",
+      "tags": ["Differential Privacy", "Scatterplot"],
+      "technologies": ["Python", "Jupyter", "Colab"],
+      "project": "Differential Privacy Visualization"
+    },
+    {
+      "title": "Notebook exploring the results of the paper 'Visual Utility of Privacy Preserving Scatterplots'",
+      "type": "Notebook",
+      "url": "https://colab.research.google.com/drive/1A0RYZCTt2xfqunHEY3ixaWfpgtydkP2p?usp=sharing",
+      "image": "resultsFigures.png",
+      "summary": "This notebook explores the results from the paper 'Visual Utility of Privacy Preserving Scatterplots'. It shows the results of the expert evaluation and the statistical analysis.",
+      "date": "2022-12-12",
+      "tags": ["Differential Privacy", "Scatterplot"],
+      "technologies": ["Python", "Jupyter", "Colab"],
+      "project": "Differential Privacy Visualization"
+    },
+    {
+      "title": "Notebook exploring privacy accuracy visuals for differential privacy",
+      "type": "Notebook",
+      "url": "https://colab.research.google.com/drive/1PmrQS-rJFrIB12zZIDA0CBWSJQvUDGYd?usp=sharing",
+      "image": "parallelCoordinages.gif",
+      "summary": "This notebook explores a variety of visualization that can be used to examine the privacy accuracy tradeoffs for different differential privacy implementation parameters.",
+      "date": "2023-12-08",
+      "tags": ["Differential Privacy"],
+      "technologies": ["Python", "Jupyter", "Colab", "Plotly"],
+      "project": "Differential Privacy Visualization"
     }
   ],
   "CV": [
