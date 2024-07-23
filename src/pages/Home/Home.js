@@ -41,10 +41,6 @@ const Home = ({ user }) => {
           <div>
             <SectionTitle>About Me</SectionTitle>
             <Paragraph>
-              I am currently in search of an <b>internship</b> &#128188; for the
-              Summer of 2024.
-            </Paragraph>
-            <Paragraph>
               I am a CS PhD student at the{" "}
               <a href="https://visualization.khoury.northeastern.edu/#/">
                 Northeastern University Data Visualization Lab
