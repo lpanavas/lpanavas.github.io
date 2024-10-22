@@ -19,9 +19,9 @@ const Pages = ({ user }) => {
         <Route exact path="/publications">
           <Publications user={user} />
         </Route>
-        <Route exact path="/projects">
+        {/* <Route exact path="/projects">
           <Projects user={user} />
-        </Route>
+        </Route> */}
         <Route exact path="/CV">
           <CV user={user} />
         </Route>

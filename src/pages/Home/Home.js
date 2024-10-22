@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import { SectionTitle, Paragraph } from "../../styles";
-import { Col, Image, Row, Card, CardDeck } from "react-bootstrap";
+import { Col, Image, Row, Card, Button, CardDeck } from "react-bootstrap";
 import Media from "../../components/Media";
 import "../../Styles/homePage.css";
 // import { ProfileLink } from './styles';
@@ -16,7 +16,8 @@ const Cards = ({ items }) => {
             <Card.Body>
               <Card.Title>{item.title}</Card.Title>
               <Card.Text>{item.summary}</Card.Text>
-              <Card.Link href={item.link}>Details</Card.Link>
+              {/* <Card.Link href={item.link}>Details</Card.Link> */}
+              <Button variant="secondary" href={item.link}>Details</Button> 
             </Card.Body>
           </Card>
         </Col>
@@ -40,49 +41,14 @@ const Home = ({ user }) => {
         <Col>
           <div>
             <SectionTitle>About Me</SectionTitle>
-            <Paragraph>
-              I am a CS PhD student at the{" "}
-              <a href="https://visualization.khoury.northeastern.edu/#/">
-                Northeastern University Data Visualization Lab
-              </a>{" "}
-              advised by{" "}
-              <a href="https://visualization.khoury.northeastern.edu/people/Cody-Dunne/">
-                Cody Dunne
-              </a>
-              . I have presented work at top tier conferences in human-computer
-              interaction (ACM CHI 2022) and data visualization (IEEE Vis 2022).
-              I have experience prototyping and deploying visual analytics
-              software as well as running quantitative and qualitative
-              evaluations of user experiences.
-            </Paragraph>
-            <Paragraph>
-              {" "}
-              My research focuses on explainable AI for object detection
-              algorithms as well as{" "}
-              <a href="https://visdunneright.github.io/Privacy-Plot-Viewer/">
-                visualization for differentially private data
-              </a>
-              . My goal is to help everyday users evaluate and assess the
-              utility of complicated model outputs. If this area of research
-              interests you, please reach out to me for more information or to
-              set up collaborations.
-            </Paragraph>
-            <Paragraph>
-              I've had the privilege to work with amazing collaborators at
-              research institutions and corporate labs. Notably, I interned at{" "}
-              <a href="https://social-dynamics.net/">Nokia Bell Labs</a>, where
-              I engineered a cloud-based survey to gather public sentiment on EU
-              AI policy. Concurrently, I served as an{" "}
-              <a href="https://opendp.org/blog/meet-2023-opendp-fellows-pauline-maury-laribiere-and-liudas-panavas">
-                OpenDP Fellow
-              </a>{" "}
-              at Harvard University's Privacy Tools Project, conducting
-              practitioner interviews to pinpoint challenges in the field of
-              differential privacy. I have also worked with collaborators from{" "}
-              <a href="https://rachelcummings.com/">Columbia University</a>,{" "}
-              <a href="https://www.melanietory.com/">the Roux Institute</a>, and{" "}
-              <a href="https://groups.cs.umass.edu/asarv/">UMass Amherst</a>.
-            </Paragraph>
+            <Paragraph>I am a 5th-year PhD student in Computer Science at <a href="https://vis.khoury.northeastern.edu/people/Liudas-Panavas/">Northeastern University</a>, advised by <a href="https://dunne.dev/">Cody Dunne</a>. My research spans <a href="https://osf.io/5t68s">differential privacy</a>, <a href="https://osf.io/r3dy2">data visualization</a>, <a href="https://osf.io/mya85">human-computer interaction (HCI)</a>, and <a href="https://colab.research.google.com/drive/1-tuGJ9RpCm3ROBjUD2lHiRK2H9Tgoc6V?usp=sharing">machine learning model evaluation</a>. Currently, I’m focused on transitioning differential privacy from theory to practical application, particularly addressing usability challenges that are often overlooked. My goal is to make this technology more accessible to everyday users by making it understandable and easy to implement.</Paragraph>
+
+          <Paragraph>In addition to my research experience, I’ve had the opportunity to get experience working at a variety of places. In summer 2024, I interned at <a href="https://www.rand.org/jobs/summer-associates.html">RAND Corporation</a>, designing a differentially private system for releasing <a href="https://www.urban.org/research/publication/privacy-preserving-validation-server-version-2">IRS tax records</a>. As an intern at <a href="https://social-dynamics.net/">Nokia Bell Labs</a>, I contributed to research on AI policy through an interactive survey. As a visiting scholar at Columbia University, I explored <a href="https://tpdp.journalprivacyconfidentiality.org/2024/pdfs/A%20Visualization%20Tool%20to%20Help%20Technical%20Practitioners%20of%20Differential%20Privacy.pdf">differential privacy practitioner challenges</a>.</Paragraph>
+
+        <Paragraph>Technically, I have experience in full-stack development, data analysis, and differential privacy implementation. My expertise includes Python, JavaScript, React, D3, and AWS. I’ve developed <a href="https://manati.ece.neu.edu/dictionary/diz_test/client/build/#__utma=72955916.1812345410.1692196394.1702846292.1704463675.37&__utmb=72955916.2.10.1704463675&__utmc=72955916&__utmx=-&__utmz=72955916.1704463675.37.32.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)&__utmv=-&__utmk=211474707">dashboards for private databases</a>, <a href="https://dpeducation.streamlit.app/">interactive educational tools</a> for understanding differential privacy, and a <a href="https://pypi.org/project/setmlvis/">Python package</a> to visually compare object detection models in Jupyter notebooks.</Paragraph>
+
+<Paragraph>Ultimately, I want to continue building practical solutions that make advanced technologies usable for individuals and organizations.</Paragraph>
+
 
             {/* <Paragraph>{user.basics.summary}</Paragraph> */}
           </div>

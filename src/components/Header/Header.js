@@ -41,16 +41,16 @@ const items = [
     //   },
     // ],
   },
-  {
-    name: "Projects",
-    path: "/projects",
-    // subpath: [
-    //   {
-    //     name: "Research",
-    //     path: "/projects#research",
-    //   },
-    // ],
-  },
+  // {
+  //   name: "Projects",
+  //   path: "/projects",
+  //   // subpath: [
+  //   //   {
+  //   //     name: "Research",
+  //   //     path: "/projects#research",
+  //   //   },
+  //   // ],
+  // },
   {
     name: "CV",
     path: "/CV",

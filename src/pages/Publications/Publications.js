@@ -26,7 +26,7 @@ const Papers = ({ papers }) => {
             <h4>{pub.title}</h4>
             <p>
               <BoldName text={pub.authors}></BoldName>
-              {pub.venue}
+              {pub.journal} {" "}
               {pub.year}
             </p>
             <p>

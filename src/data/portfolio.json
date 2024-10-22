@@ -50,6 +50,12 @@
   ],
   "selectedprojects": [
     {
+      "title": "Differential Privacy Hyperparameter Exploration",
+      "summary": "There are many implementation parameters that are difficult to understand and set when deploying differential privacy. As a visiting scholar at Columbia University, I created an interactive visualization interface to give people the ability to experiment with privacy accuracy tradeoffs across a broad range of parameters.",
+      "image": "DPPrototype.png",
+      "link": "https://dpeducation.streamlit.app/"
+    },
+    {
       "title": "Set Visualization for Object Detection Model Comparison",
       "summary": "We developed a system that leverages set visualizations to facilitate model-to-model comparisons in object detection, offering a nuanced analysis of unique strengths and weaknesses, thereby streamlining the model selection process and providing insights obscured by traditional ground-truth-based evaluation metrics.",
       "image": "setmlvis.png",
@@ -152,8 +158,39 @@
     }
   ],
   "publications": {
-    "journal": [],
+
+    "journal": [
+    ],
     "conference": [
+      {
+        "title": "A Visualization Tool to Help Technical Practitioners of Differential Privacy",
+        "authors": "Panavas, L., Rho, S., Bhimaraju, H., Pintado, W., Wright, R. N., Cummings, R.",
+        "journal": "Journal of Privacy and Confidentiality",
+        "venue": "Theory and Practice of Differential Privacy ",
+        "year": "2024",
+        "url": "https://tpdp.journalprivacyconfidentiality.org/2024/pdfs/A%20Visualization%20Tool%20to%20Help%20Technical%20Practitioners%20of%20Differential%20Privacy.pdf",
+        "image": "TPDP-Poster.png"
+      },      
+      {
+        "title": "Illuminating the Landscape of Differential Privacy: An Interview Study on the Use of Visualization in Real-World Deployments",
+        "authors": "Panavas, L., Sarker, A., Di Bartolomeo, S., Sarvghad, A., Dunne, C., Mahyar, N.",
+        "journal": "IEEE Transactions on Visualization and Computer Graphics",
+        "year": "2024",
+        "venue": " Eurographics Working Group on Data Visualization (EuroVis) ",
+        "publisher": "IEEE",
+        "url": "https://osf.io/mya85/download/",
+        "image": "DPInterviewFlow.png"
+      },      
+      {
+        "title": "Vis Repligogy: Towards a Culture of Facilitating Replication Studies in Visualization Pedagogy and Research",
+        "authors": "Syeda, U. H., South, L., Raynor, J., Panavas, L., Saffo, D., Morriss, T., Dunne, C., Borkin, M. A.",
+        "year": "2024",
+        "publisher": "The Eurographics Association",
+        "venue": " Eurographics Working Group on Data Visualization (EuroVis) ",
+        "url": "https://osf.io/h2qfn/download",
+        "image": "chartJunk.png",
+        "journal": "The European Association for Computer Graphics"
+      },    
       {
         "title": "Investigating the Visual Utility of Differentially Private Scatterplots",
         "authors": "Panavas, L., Crnovrsanin, T., Adams, J. L., Ullman, J., Sargavad, A., Tory, M., Dunne, C.",
