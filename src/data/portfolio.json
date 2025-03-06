@@ -199,7 +199,13 @@
         "year": "2023",
         "publisher": "IEEE",
         "url": "https://files.osf.io/v1/resources/b5zvn/providers/osfstorage/64207a5c1a80c5143e86b498?action=download&direct&version=1",
-        "image": "scatterplotTeaser.png"
+        "image": "scatterplotTeaser.png",
+        "PDF": "https://osf.io/b5zvn/download",
+        "Preprint": "https://osf.io/b5zvn/",
+        "DOI": "https://doi.org/10.1109/TVCG.2023.3292391",
+        "Supplement": "https://osf.io/wej4s/",
+        "Preregistration": "https://osf.io/25xhn",
+        "Code": "https://github.com/VisDunneRight/Privacy-Plot-Viewer"
       },
       {
         "title": "Visual utility evaluation of differentially private scatterplots (Poster)",
@@ -207,7 +213,12 @@
         "venue": "IEEE VIS: Visualization & Visual Analytics (VIS) ",
         "year": "2022",
         "url": "https://osf.io/5t68s/",
-        "image": "Panavas2022VisualUtilityEvaluation.png"
+        "image": "Panavas2022VisualUtilityEvaluation.png",
+        "PDF": "https://osf.io/5t68s/download",
+        "Preprint": "https://osf.io/5t68s/",
+        "DOI": "https://doi.org/10.31219/osf.io/5t68s",
+        "Supplement": "https://osf.io/w7ng4/",
+        "Poster": "https://osf.io/q7w42"
       },
       {
         "title": "Juvenile Graphical Perception: A Comparison between Children and Adults",
@@ -215,7 +226,13 @@
         "venue": "Conference on Human Factors in Computing Systems (CHI) ",
         "year": "2022",
         "url": "https://files.osf.io/v1/resources/r3dy2/providers/osfstorage/62280a0c558e6007162a1e5f?format=pdf&action=download&direct&version=1",
-        "image": "CGPFigure.png"
+        "image": "CGPFigure.png",
+        "PDF": "https://osf.io/r3dy2/download",
+        "Preprint": "https://osf.io/r3dy2",
+        "DOI": "https://doi.org/10.1145/3491102.3501893",
+        "Supplement": "https://osf.io/ygrdv/",
+        "Video Preview": "https://osf.io/k5bcw/",
+        "Video Presentation": "https://osf.io/xjwz3/"
       },
       {
         "title": "Two paths towards the future of remote studies using social VR",
